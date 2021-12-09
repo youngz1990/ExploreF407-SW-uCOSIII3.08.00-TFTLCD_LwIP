@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                //"D:/Program Files/IAR Systems/Embedded Workbench 7.5/arm/inc/c",
+                "D:/Program Files/Keil5/ARM/ARMCC/include",
+                "${workspaceRoot}/Core/Inc",
+                "${workspaceRoot}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "${workspaceRoot}/Drivers/CMSIS/Include",
+                "${workspaceRoot}/Drivers/STM32F4xx_HAL_Driver/Inc",
+                "${workspaceRoot}/User/Inc",
+                "${workspaceRoot}/User/Bsp/Inc",
+                "${workspaceRoot}/uCOS-III/uC-CPU/ARM-Cortex-M/ARMv7-M/ARM",
+                "${workspaceRoot}/uCOS-III/uC-CPU/Cfg",
+                "${workspaceRoot}/uCOS-III/uC-CPU",
+                "${workspaceRoot}/uCOS-III/uC-LIB",
+                "${workspaceRoot}/uCOS-III/uC-LIB/Cfg",
+                "${workspaceRoot}/uCOS-III/uC-LIB/Ports/ARM-Cortex-M4/RealView",
+                "${workspaceRoot}/uCOS-III/uCOS-III/Source",
+                "${workspaceRoot}/uCOS-III/uCOS-III/Ports/ARM-Cortex-M/ARMv7-M/ARM",
+                "${workspaceRoot}/uCOS-III/uCOS-III/Cfg",
+                "${workspaceRoot}/Lwip-2.1.2",
+                "${workspaceRoot}/Lwip-2.1.2/apps",
+                "${workspaceRoot}/Lwip-2.1.2/include",
+                "${workspaceRoot}/Lwip-2.1.2/include/lwip",
+                "${workspaceRoot}/Lwip-2.1.2/include/netif",
+                "${workspaceRoot}/Lwip-2.1.2/include/netif/ppp"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F407xx",
+                "_DEBUG",
+                "UNICODE",
+                "__ARMVFP__",
+                "USE_FULL_LL_DRIVER",
+                "__CC_ARM"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "cStandard": "c99"
+        }
+    ],
+    "version": 4
+}

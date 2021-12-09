@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "*.c": "c",
+        "*.h": "c",
+        "string": "c"
+    } ,
+    "files.exclude": {
+        "**/Other Arch": true,
+        "**/ARMv6-M": true,
+        "**/CCS": true,
+        "**/GNU": true,
+        "**/IAR": true,
+        "**/*.map": false,
+        "**/*.lst": true,
+        "**/*.htm": true,
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
+}
